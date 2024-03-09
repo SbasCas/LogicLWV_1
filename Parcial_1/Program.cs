@@ -28,6 +28,13 @@ namespace Parcial_1
             venta2 = Convert.ToDouble(Console.ReadLine());
             venta3 = Convert.ToDouble(Console.ReadLine());
 
+            comisión = (venta1 + venta2 + venta3) * 0.10;
+
+            Console.WriteLine("la comision por las 3 ventas del mes es: $" + comisión);
+            totalmes = sueldo + comisión;
+
+            
+
 
 
 
