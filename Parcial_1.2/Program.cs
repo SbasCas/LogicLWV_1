@@ -11,7 +11,16 @@ namespace Parcial_1._2
 
             //Variables 
 
-            double Velocidadtren1 = 80, Velocidadtren2 = 100, Hora = 1;
+            double Velocidadtren1 = 80, Velocidadtren2 = 100, Horapartida1 = 10, Horapartida2 = 11, Distancia, TiempoA;
+
+            Distancia= Velocidadtren1 * (Horapartida2 - Horapartida1);  
+
+            TiempoA= Distancia / (Velocidadtren2 - Velocidadtren1);
+
+
+            
+
+            
 
         }
     }
