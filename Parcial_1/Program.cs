@@ -36,9 +36,11 @@ namespace Parcial_1
 
             Console.WriteLine("El sueldo total mas comision es : $" + totalmes);
 
-            if (((venta1 > venta2) && (venta2 > venta3))) Console.WriteLine("La venta que mando genero mayor comison fue" + venta1);
-            else if (((venta2 > venta3) && (venta3 > venta1))) Console.WriteLine("La venta que mando genero mayor comison fue" + venta2);
-            else Console.WriteLine("La venta que mando genero mayor comison fue : " + venta3);
+            if (((venta1 > venta2) && (venta2 > venta3))) Console.WriteLine("La venta que genero mayor comison fue" + venta1);
+            else if (((venta2 > venta3) && (venta3 > venta1))) Console.WriteLine("La venta que genero mayor comison fue" + venta2);
+            else Console.WriteLine("La venta que genero mayor comison fue : " + venta3);
+
+            
 
 
 
