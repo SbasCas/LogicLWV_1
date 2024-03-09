@@ -11,11 +11,19 @@ namespace Parcial_1._2
 
             //Variables 
 
-            double Velocidadtren1 = 80, Velocidadtren2 = 100, Horapartida1 = 10, Horapartida2 = 11, Distancia, TiempoA;
+            double Velocidadtren1 = 80, Velocidadtren2 = 100, Horapartida1 = 10, Horapartida2 = 11, Distancia, TiempoA, HoraA;
 
             Distancia= Velocidadtren1 * (Horapartida2 - Horapartida1);  
 
             TiempoA= Distancia / (Velocidadtren2 - Velocidadtren1);
+
+            HoraA = (Horapartida2 + TiempoA);
+
+            Console.WriteLine("El segundo tren alcanzara al primero a las " + HoraA + ":00 horas");
+
+
+
+
 
 
             
