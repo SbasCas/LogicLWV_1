@@ -12,7 +12,24 @@ namespace Parcial_1
             //¿Cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes ?
             //¿Cuál es el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones?
             //¿Cuál fue la venta que le generó la mayor comisión?
-            //¿Cuál fue el promedio de las comisiones que recibió por cada venta? 
+            //¿Cuál fue el promedio de las comisiones que recibió por cada venta?
+
+            //variables
+
+            double sueldo,venta1, venta2, venta3, comisión, totalmes;
+
+            Console.WriteLine("Ingrese el sueldo del vendedor");
+
+            sueldo = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Ingresar las ventas del mes");
+
+            venta1 = Convert.ToDouble(Console.ReadLine());
+            venta2 = Convert.ToDouble(Console.ReadLine());
+            venta3 = Convert.ToDouble(Console.ReadLine());
+
+
+
 
         }
     }
