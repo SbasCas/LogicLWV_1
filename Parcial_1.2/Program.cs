@@ -17,9 +17,10 @@ namespace Parcial_1._2
 
             TiempoA= Distancia / (Velocidadtren2 - Velocidadtren1);
 
-            HoraA = (Horapartida2 + TiempoA);
+            HoraA = (Horapartida1 + TiempoA);
 
             Console.WriteLine("El segundo tren alcanzara al primero a las " + HoraA + ":00 horas");
+
 
 
 
