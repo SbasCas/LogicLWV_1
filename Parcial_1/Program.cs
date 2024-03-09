@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.Intrinsics.X86;
 using System.Security.Cryptography;
+using System.Timers;
 
 namespace Parcial_1
 {
@@ -32,6 +33,9 @@ namespace Parcial_1
 
             Console.WriteLine("la comision por las 3 ventas del mes es: $" + comisión);
             totalmes = sueldo + comisión;
+
+            Console.WriteLine("El sueldo total mas comision es : $" + totalmes);
+
 
             
 
